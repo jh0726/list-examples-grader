@@ -36,7 +36,7 @@ cd grading-area
 javac -cp $CPATH *.java
 if [[ $? -eq 0 ]]
 then 
-    echo "Successfully compiled."
+    echo "Compiled Successfully."
 else 
     echo "Failed to compile successfully."
     exit 
